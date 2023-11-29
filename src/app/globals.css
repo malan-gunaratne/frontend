@@ -9,9 +9,13 @@
   margin: 0;
 }
 
-main {
+body {
   width: var(--max-width);
   margin: 10px auto;
+}
+
+main {
+  margin-top: 50px;
 }
 
 @media (prefers-color-scheme: dark) {
