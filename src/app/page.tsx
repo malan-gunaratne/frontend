@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <main>
             <section className={styles.title}>
-                <h1>Malan<span>(Ma-len)</span></h1>
+                <h1>Malan</h1>
                 <h2>Web Developer</h2>
             </section>
             <section className={styles.status}>
