@@ -24,6 +24,8 @@ The progress log follows the format: Date - description of work done
 
 #### December
 
+- **5th**: Added a Green text component to mark progress on the homepage.
+- **3rd**: Updated Readme to include progress
 - **3rd**: Added a breakpoint observer to keep track of the browser window's size.
 - **2nd**: Deployed the website from a Linux machine.
 - **1st**: Set up the project with `create-next-app`.
