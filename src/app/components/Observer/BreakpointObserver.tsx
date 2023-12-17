@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
+import styles from './index.module.scss'
 
 const BreakpointObserver: React.FC = () => {
     const [breakpoint, setBreakpoint] = useState<string | undefined>()
@@ -17,7 +18,7 @@ const BreakpointObserver: React.FC = () => {
     })
 
     return (
-        <div className="">
+        <div className={styles.breakpoint}>
             Current breakpoint: {breakpoint}
         </div>
     )
